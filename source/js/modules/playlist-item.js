@@ -9,7 +9,7 @@ export class PlaylistItem extends LitElement {
   render() {
     return html`
       <tr>
-        <td>
+        <td class="p-4 divide-x-1">
           <div class="flex items-center gap-3">
             
             <!-- Avatar -->

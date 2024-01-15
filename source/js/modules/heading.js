@@ -8,12 +8,14 @@ export class Heading extends LitElement {
   }
   render() {
     return html`
-    <div class="navbar bg-base-200">
+    <div class="navbar bg-base-200 px-6">
 
       <!-- Logo -->
-      <div class="flex-1 flex-direction-vertical">
-        <div class="text-xl">Castway</div><br/>
-        <div class="text-sm">VoiceTrack</div>
+      <div class="flex-1">
+        <div class="logo flex-none">
+          <div class="text-xl">Castway</div>
+          <div class="text-sm">VoiceTrack</div>
+        </div>
       </div>
 
       <!-- Dropdown -->

@@ -8,9 +8,12 @@ export class Playlist extends LitElement {
   }
   render() {
     return html`
-    <app-playlistHead></app-playlistHead>
-          <playlist-item></playlist-item>
-          <app-playlistFoot></app-playlistFoot>
+      <playlist-item></playlist-item>
+      <playlist-item></playlist-item>
+      <playlist-item></playlist-item>
+      <playlist-item></playlist-item>
+      <playlist-item></playlist-item>
+
     `;
   }
 }
